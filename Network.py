@@ -62,7 +62,7 @@ class Net:
 
         return imgCollection
 
-    def predict(self, img: np.array) -> [int, float]:
+    def predict(self, img: np.array) -> int:
         x = image.img_to_array(img)
         x /= 255
         x = np.expand_dims(x, axis=0)
