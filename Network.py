@@ -72,5 +72,5 @@ class Net:
 
         return self.__classes[pred[0]]
 
-    def getAccuriry(self):
+    def getAccuriry(self) -> float:
         return self.__acc
